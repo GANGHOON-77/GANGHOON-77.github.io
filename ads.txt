@@ -1,1 +1,13 @@
-google.com, pub-8543542161839992, DIRECT, f08c47fec0942fa0
+# ads.txt 파일 - Google AdSense 승인을 위한 광고 판매자 인증
+# 이 파일은 사이트의 루트 디렉토리에 위치해야 합니다
+
+# Google AdSense
+google.com, pub-YOUR_PUBLISHER_ID, DIRECT, f08c47fec0942fa0
+
+# 사용법:
+# 1. pub-YOUR_PUBLISHER_ID를 실제 AdSense Publisher ID로 교체하세요
+# 예: google.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0
+#
+# 2. GitHub Pages에 업로드하면 https://yourdomain.com/ads.txt 로 접근 가능합니다
+#
+# 3. AdSense에서 이 파일을 확인하여 광고주가 인증된 판매자임을 확인합니다

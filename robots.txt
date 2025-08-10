@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# 사이트맵
+Sitemap: https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/sitemap.xml
+
+# 크롤링 허용
+Allow: /index.html
+Allow: /privacy.html  
+Allow: /terms.html
+Allow: /style.css
+Allow: /app.js
+Allow: /jobs_data.js
+Allow: /manifest.json
+Allow: /*.svg
+Allow: /*.png
+
+# 크롤링 제외
+Disallow: /sw.js
+Disallow: /*.md
+
+# 크롤링 속도 제한 (1초마다 1회)
+Crawl-delay: 1
